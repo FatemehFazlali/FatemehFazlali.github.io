@@ -1,6 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<style>
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    direction: rtl;
+    font-size: 12px;
+}
+@font-face {
+    /* تعریف نام فونت */
+    font-family: 'BYekan';
+    /* اکسپلورر 9 به بعد */
+    src: url('font/BYekanWeb.eot');
+    /* بارگذاری فایل فونت از سرور */
+    src: /* هک برای اکسپلورر 8 و ماقبل */
+         url('font/BYekanWeb.eot?#iefix') format('embedded-opentype'),
+         /* فرمت مناسب مرورگرهای تقریبا جدید */
+         url('font/BYekanWeb.woff') format('woff'),
+         /* تمام مرورگرها به جزء اکسپلورر */
+         url('font/BYekanWeb.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+.post-titr p {
+    font-family: BYekan, Tahoma, Geneva, sans-serif;
+    display: block;
+    font-size: 16px;    
+}
+</style>
   <!-- Head -->
   <head>    <!-- Metadata, OpenGraph and Schema.org -->
     
@@ -106,10 +133,10 @@
     <!-- Content -->
     <div class="container mt-5">
       <!-- about.html -->
-      <div class="post">
-        <header class="post-header">
+      <div class="post" >
+        <header class="post-titr">
           <h1 class="post-title" align="center">
-          <span class="font-weight-bold">&nbsp;فاطمه فضلعلی</span>  </h1>
+          <span class="post-titr" >&nbsp;فاطمه فضلعلی</span>  </h1>
           <p class="desc" align="center" ><a href="https://cfu.ac.ir/">دانشگاه فرهنگیان</a> | تماس با من <a href="mailto:fazlali2004@yahoo.com"></a>
 		</p>
         </header>
